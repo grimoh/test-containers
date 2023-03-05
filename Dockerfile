@@ -1,2 +1,1 @@
-FROM httpd:2.4
-COPY ./test.html /usr/local/apache2/htdocs/
+FROM nginx:1.23.3
